@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="taco.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>tacoco</title>
+</head>
+<body>
+    <h2>고양이 성장일기<h2>
+
+<div class="container">
+<div class="swiper">
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="IMG_2354.jpg" width="900px" height="auto"></div>
+      <div class="swiper-slide"><img src="taco1.jpg" width="900px" height="auto"></div>
+      <div class="swiper-slide"><img src="taco2.jpg" width="900px" height="600px"></div>
+      <div class="swiper-slide"><img src="taco3.jpg" width="900px" height="auto"></div>
+      <div class="swiper-slide"><img src="taco4.jpg" width="900px" height="auto"></div>
+      <div class="swiper-slide"><img src="taco5.jpg" width="900px" height="auto"></div>
+      <div class="swiper-slide"><img src="taco6.jpg" width="900px" height="600px"></div>
+      <div class="swiper-slide"><img src="타코.jpg" width="900px" height="auto"></div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+ 
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+const swiper = new Swiper('.swiper', {
+
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+</script>
+</body>
+</html>

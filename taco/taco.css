@@ -1,0 +1,36 @@
+
+.container {
+    width: 70%;
+    height: 90vh;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background: linear-gradient(120deg, #e2a3ff, #7cffff);
+}
+
+h2{
+    text-align: center;
+    color: rgb(155, 237, 240);
+    font-family: 'PyeongChangPeace-Light';
+    font-size: 3rem;
+}
+@font-face {
+    font-family: 'PyeongChangPeace-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+.swiper{
+    width: 80%;
+    height: 70vh;
+    text-align: center;
+}
+
+.swiper-silde img{
+    width: 100%;
+}
